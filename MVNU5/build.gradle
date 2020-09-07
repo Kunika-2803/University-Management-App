@@ -1,0 +1,63 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+    ext {
+        bintrayRepo = 'maven'
+        bintrayName = 'DiagonalLayout'
+        orgName = 'florent37'
+
+        publishedGroupId = 'com.github.florent37'
+        libraryName = 'DiagonalLayout'
+        artifact = 'diagonallayout'
+
+        libraryDescription = 'DiagonalLayout'
+
+        siteUrl = 'https://github.com/florent37/DiagonalLayout'
+        gitUrl = 'https://github.com/florent37/DiagonalLayout.git'
+
+//        libraryVersion = rootProject.ext.libraryVersion
+
+        developerId = 'florent37'
+        developerName = 'Florent Champigny'
+        developerEmail = 'champigny.florent@gmail.com'
+
+        licenseName = 'The Apache Software License, Version 2.0'
+        licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+        allLicenses = ["Apache-2.0"]
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven()
+                {
+                    url="https://jitpack.io"
+                }
+        maven()
+                {
+                    url="https://github.com/florent37/DiagonalLayout.git"
+                }
+    /*    maven()
+                {
+                    url 'https://github.com/flavioarfaria/KenBurnsView'
+                }*/
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

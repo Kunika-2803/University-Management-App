@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">MVNU</string>
+    <string name="Gender">Choose Gender</string>
+    <string-array name="gender">
+        <item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+    </string-array>
+    <string-array name="course">
+        <item>Select</item>
+        <item>Btech</item>
+        <item>BCA</item>
+    </string-array>
+    <string-array name="sem">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Event_Type">
+        <item>Select</item>
+        <item>Sports Fest</item>
+        <item>Cultural Fest</item>
+        <item>Management Fest</item>
+        <item>Technical Fest</item>
+
+    </string-array>
+    <string-array name="Refer_teacher">
+        <item>Select</item>
+        <item>Babita</item>
+        <item>Dr. Sachin Gupta</item>
+        <item>Preeti</item>
+        <item>Yogendra</item>
+
+    </string-array>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="user_error">Username cannot be empty</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter a phone number</string>
+    <string name="email_error">Please enter a email address</string>
+    <string name="roll_error">Please enter a roll number</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="error_invalid_phone">Not a valid phone number</string>
+    <string name="error_invalid_roll">Not a valid roll number</string>
+    <string name="error_password_match">Password not matches</string>
+    <string name="error_gender">Please select a valid gender</string>
+    <string name="title_activity_event">Event</string>
+    <string name="tab_text_1">Events</string>
+    <string name="tab_text_2">Participated</string>
+    <string name="tab_text_3">I Agree to the terms and conditions</string>
+    <string name="tab_1">Time Table</string>
+    <string name="tab_2">Syllabus</string>
+    <string name="tab_3">Notes</string>
+    <string name="tab_11">Exam Form</string>
+    <string name="tab_21">Date Sheet</string>
+    <string name="tab_31">Result</string>
+    <string name="action_settings">Logout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_study__material">Study_Material</string>
+    <string name="title_activity_examination">Examination</string>
+</resources>

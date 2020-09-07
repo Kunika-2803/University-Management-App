@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/Light_Blue"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Choose User Type"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/btnStu"
+        android:layout_width="220dp"
+        android:layout_height="241dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:minWidth="200dp"
+        android:onClick="Student"
+        android:src="@drawable/student1"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Student"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnPro"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:minWidth="200dp"
+        android:onClick="Professor"
+        android:src="@drawable/professor"
+        android:text="Clear"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:id="@+id/txtData2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Professor"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
